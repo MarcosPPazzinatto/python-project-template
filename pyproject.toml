@@ -1,0 +1,16 @@
+[project]
+name = "python_project_template"
+version = "0.1.0"
+description = "A simple and clean Python project template"
+authors = [{name = "Marcos Paulo Pazzinatto"}]
+readme = "README.md"
+requires-python = ">=3.8"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+addopts = "-ra -q"
+
