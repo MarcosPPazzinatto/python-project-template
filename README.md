@@ -11,7 +11,7 @@ This repository provides a minimal and clean structure to start a new Python pro
 - MIT License
 
 ## Structure
-
+```
 project-root/
 ├── src/ # Source code
 │ └── main.py # Entry point
@@ -21,6 +21,7 @@ project-root/
 ├── README.md
 ├── requirements.txt
 └── LICENSE
+```
 
 ## How to use
 
